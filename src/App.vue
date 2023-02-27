@@ -1,15 +1,15 @@
 <template>
   <header>
-    <restaurant-row />
+    <home />
   </header>
 </template>
 
 <script>
-import RestaurantRow from './components/RestaurantRow.vue'
+import Home from './page/home.vue'
 export default {
   name: 'App',
   components: {
-    RestaurantRow
+    Home
   }
 }
 </script>
